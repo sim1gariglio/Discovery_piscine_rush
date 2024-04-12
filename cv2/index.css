@@ -1,0 +1,142 @@
+
+body,html {
+	position: relative;
+    padding: 0;
+	justify-content: center;
+	align-items: center;
+	background-attachment: fixed;
+	background-image: url(./img/nuvole.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+
+
+}
+.navbar {
+    background:black;
+}
+.nav-link,
+.navbar-brand {
+    color: #fff;
+    cursor: pointer;
+}
+.nav-link {
+    margin-right: 1em !important;
+}
+.nav-link:hover {
+    color: #000;
+}
+.navbar-collapse {
+    justify-content: flex-end;
+}
+.first {
+	display: flex;
+	text-align: center;
+	height: 500px;
+	justify-content: center;
+	align-items: center;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size:contain;
+	background-image: url(./img/first1.jpg);
+	flex-direction: column;	
+	filter:brightness(50%);
+	
+	
+}
+.second {
+	margin-top: 100px;
+	width: 100%;
+	text-align: center;
+	margin-left: 10px;
+	height: 750px;
+	justify-content: center;
+	align-items: left;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size:contain;
+	background-attachment: fixed;
+
+}
+
+.second h1 {
+	font-size: 3em;
+}
+.first h1 {
+	font-size: 3em;
+}
+.first h2 {
+	font-size: 2em;
+}
+.container {
+	padding: 0;
+	justify-content: center;
+	justify-self: center;
+	align-items: center;
+}
+
+.container2
+{
+	
+	padding: 20px;
+	display: flex;
+	justify-content: center;
+	justify-self: center;	
+	align-items: center;
+	border-left: 10px solid black;
+}
+
+.container2 img {
+	width: 38%;
+	height: 38%;
+}
+.container2 .myList {
+	align-self: flex-start;
+	text-align: left;
+	width: 50%;
+	height: 50%;
+	align-items: left;
+}
+
+.myList h2 {
+	text-align: center;
+	justify-content: center;
+}
+
+table
+{
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	width: 100%;
+	margin-bottom: 7%;
+}
+td
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-spacing: 0;
+}
+tr
+{
+	padding: 0;
+	margin: 0;
+	align-items: center;
+	border-spacing: 0;
+}
+.cont3{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.social{
+	width: 30px;
+	height: 30px;
+	display: flex;
+	justify-content: center;
+}
+
+.social img{
+	margin: 10%;
+}
