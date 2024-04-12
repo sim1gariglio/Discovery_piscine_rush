@@ -6,6 +6,10 @@ body, html {
 	justify-content: center;
 	display: flex;
 	justify-self: center;
+	background-image: url(./img/first.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size:cover;
 }
 table
 {
@@ -38,9 +42,40 @@ tr
 }
 #button2 {
     display: inline-block;
-    padding: 10px 20px;
+	margin: 5px;
     color: #fff;
-    background-color: #007bff;
+    background-color: #493e2d;
     border: none;
     text-decoration: none;
+	padding: 10px 20px;
+	border-radius: 4px;
+	transition: background-color 0.3s ease;
+}
+
+#button2:hover {
+    background-color: #0056b3;
+}
+#names{
+	justify-content: center;
+	display: flex;
+	align-self: center;
+	text-emphasis: bold;
+	font-size: x-large;
+	color: rgb(199, 40, 18);
+	text-shadow: 0 2px rgb(90, 62, 45), 2px 0 rgb(59, 52, 30);
+}
+#main{
+	justify-content: center;
+	display: flex;
+	align-self: center;
+	color: rgb(199, 40, 18);
+	text-shadow: 0 2px rgb(90, 62, 45), 2px 0 rgb(59, 52, 30);
+}
+footer{
+	justify-content: right;
+	align-self: right;
+	position: fixed;
+	bottom: 0;
+	right:5%;
+	font-size: 50%;
 }

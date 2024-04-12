@@ -4,9 +4,11 @@ body,html {
     padding: 0;
 	justify-content: center;
 	align-items: center;
+	background-color: antiquewhite;
 }
 .navbar {
-    background:#6ab446;
+    background:#41861e;
+	position: fixed;
 }
 .nav-link,
 .navbar-brand {
@@ -23,6 +25,7 @@ body,html {
     justify-content: flex-end;
 }
 .first {
+	width: 100%;
 	display: flex;
 	text-align: center;
 	height: 500px;
@@ -31,10 +34,9 @@ body,html {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size:contain;
-	background-image: url(./img/ig.png);
 	flex-direction: column;
 }
-.second {
+#second {
 	margin-top: 100px;
 	width: 100%;
 	text-align: center;
@@ -42,25 +44,33 @@ body,html {
 	height: 750px;
 	justify-content: center;
 	align-items: left;
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size:contain;
 }
 
-.second h1 {
+#second h1 {
 	font-size: 3em;
+	color: rgb(187, 199, 18);
+	text-shadow: 0 2px rgb(90, 62, 45), 2px 0 rgb(59, 52, 30);
 }
 .first h1 {
 	font-size: 3em;
+	color: rgb(187, 199, 18);
+	text-shadow: 0 2px rgb(90, 62, 45), 2px 0 rgb(59, 52, 30);
 }
 .first h2 {
 	font-size: 2em;
 }
+
 .container {
 	padding: 0;
 	justify-content: center;
 	justify-self: center;
 	align-items: center;
+	background-image: url(./img/me.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size:contain;
+	background-attachment: fixed;
+	margin-bottom: 100px;
 }
 
 .container2
@@ -75,8 +85,8 @@ body,html {
 }
 
 .container2 img {
-	width: 50%;
-	height: 50%;
+	width: 45%;
+	height: 45%;
 }
 .container2 .myList {
 	align-self: flex-start;
@@ -128,4 +138,28 @@ tr
 
 .social img{
 	margin: 10%;
+}
+
+footer{
+	max-height: 50px;
+	display: flex;
+    justify-content: center;
+	width: 100%;
+	justify-self: center;
+}
+
+.button {
+	display: inline-block;
+	margin: 5px;
+	color: #fff;
+	background-color: #c9a42e;
+	border: none;
+	text-decoration: none;
+	padding: 10px 20px;
+	border-radius: 4px;
+	transition: background-color 0.3s ease;
+}
+
+.button:hover {
+	background-color: #e6ca52;
 }
