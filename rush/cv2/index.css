@@ -130,7 +130,7 @@ tr
 	justify-content: center;
 }
 
-.social{
+.social {
 	width: 30px;
 	height: 30px;
 	display: flex;
@@ -138,6 +138,8 @@ tr
 }
 
 .social img{
+	width: 30px;
+	height: 30px;
 	margin: 10%;
 }
 
@@ -155,4 +157,12 @@ tr
 
 .button:hover {
 	background-color: #b44646;
+}
+
+footer{
+	max-height: 50px;
+	display: flex;
+    justify-content: center;
+	width: 100%;
+	justify-self: center;
 }
